@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+  ~ RegFormRLSExample - index.mxml
+  ~
+  ~ Copyright (c) 2010. Newtriks Ltd <simon@newtriks.com>
+  ~ Your reuse is governed by the Creative Commons Attribution 3.0 License
+  -->
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
+               xmlns:s="library://ns.adobe.com/flex/spark"
+               xmlns:regform="com.newtriks.examples.regform.*"
+               xmlns:components="com.newtriks.examples.regform.view.components.*">
+    <fx:Declarations>
+        <regform:RegFormContext contextView="{this}"/>
+    </fx:Declarations>
+    <s:layout>
+        <s:VerticalLayout paddingTop="10" paddingLeft="10" paddingRight="10" paddingBottom="10"/>
+    </s:layout>
+    <components:RegView />
+</s:Application>
