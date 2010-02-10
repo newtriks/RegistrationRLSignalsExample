@@ -26,7 +26,7 @@ package com.newtriks.examples.regform.model
         {
             _regFormData = value;
 
-            trace( value.email );
+            trace( value.email + " " + value.password );
         }
 
         protected var _regFormData:RegFormData;
